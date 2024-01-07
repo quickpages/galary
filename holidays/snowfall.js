@@ -90,4 +90,6 @@ animateImages();
 function playAudio() {
     var audio = document.getElementById('backgroundMusic');
     audio.play();
+    // Call playAudio function after a short delay
+    setTimeout(playAudio, 1000); // Adjust the delay as needed
 }
